@@ -21,5 +21,15 @@ if (!validGrades || grades.length === 0) {
     console.log("Result: FAILED");
   }
 
+  if (average >= 90) {
+    console.log("Performance: EXCELLENT");
+  } else if (average >= 85) {
+    console.log("Performance: VERY GOOD");
+  } else if (average >= 75) {
+    console.log("Performance: GOOD");
+  } else {
+    console.log("Performance: NEEDS IMPROVEMENT");
+  }
+
   console.log("============================");
 }
